@@ -1,0 +1,74 @@
+.container-1 {
+    border: solid 1px black;
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+}
+.flex-row-0,
+.flex-row-1,
+.flex-row-2,
+.flex-row-3,
+.flex-row-4
+ {
+    display: flex;
+    border: solid 1px black;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.flex-row-0{
+    background-color: rgb(161, 0, 0) ;
+    color: black;
+    height: 50px;
+}
+.flex-row-1
+{
+    background-color: darkgray;
+    height: 50px;
+}
+.flex-row-2,
+.flex-row-3 {
+    background: url("https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/13756/images/13756_40ec6741af75bcd0185b04dc601fe776.jpg");
+    color: black;
+}
+.flex-row-4 {
+    background-color: darkgray;
+}
+
+.flex-row-2 div {
+    border: 1px solid black;
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+    height: 350px;
+}
+
+.flex-row-2 img {
+    width: 20%;
+    padding: 10px;
+}
+.flex-row-3 button {
+    border: 1px solid black;
+    width: 280px;
+}
+
+.flex-row-3 div {
+    border: black;
+    padding: 10px;
+}
+
+
+table th,td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    width: 280px;
+}
+
+.flex-box-container-1 div {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    align-items: center;
+}
